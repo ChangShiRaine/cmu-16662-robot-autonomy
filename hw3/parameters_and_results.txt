@@ -1,0 +1,59 @@
+Parameters without constraint
+
+self._project_step_size = 1e-1
+self._constraint_th = 1e-3
+self._q_step_size = 0.01
+self._target_p = 0.3
+self._max_n_nodes = int(1e5)
+
+
+RRT: Sampled 694 nodes in 14.82s
+RRT: Found a path! Path length is 243.
+
+RRT: Sampled 1097 nodes in 31.77s
+RRT: Found a path! Path length is 254.
+
+RRT: Sampled 776 nodes in 16.83s
+RRT: Found a path! Path length is 244.
+
+RRT: Sampled 492 nodes in 9.85s
+RRT: Found a path! Path length is 224.
+
+RRT: Sampled 492 nodes in 9.00s
+RRT: Found a path! Path length is 227.
+
+
+
+
+
+
+
+Parameters with constraint
+
+self._project_step_size = 1e-1
+self._constraint_th = 1.9e-3
+
+self._q_step_size = 0.09
+self._target_p = 0.3
+self._max_n_nodes = int(1e5)
+
+RRT: Sampled 284 nodes in 14.11s
+RRT: Found a path! Path length is 49.
+
+
+RRT: Sampled 516 nodes in 41.66s
+RRT: Found a path! Path length is 67.
+
+RRT: Sampled 89 nodes in 4.69s
+RRT: Found a path! Path length is 32.
+
+RRT: Sampled 1310 nodes in 144.58s
+RRT: Found a path! Path length is 130.
+
+RRT: Sampled 964 nodes in 72.01s
+RRT: Found a path! Path length is 44.
+
+
+
+
+
